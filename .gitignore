@@ -1,12 +1,12 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+*.project
+target
+.settings
+logs
+*.classpath
+/database/*
+database/*
+RedisManager-Base/database/*
+/hs_err_pid*
+RedisManager-Base/hs_err_pid*
+RedisManager-Service/database/*
+RedisManager-Web/database/*
